@@ -35,7 +35,7 @@ app.get('/login',async (req, res) => { //req = request, peticion; res =response,
       res.status (200).send("Inicio de sesion correcto")
       
     }else {
-      res.Status(401).send("Inicio de sesion incorrecto")
+      res.status(401).send("Inicio de sesion incorrecto")
     }
 
     console.log(results); // results contains rows returned by server
